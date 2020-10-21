@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    background: var(--white);
+    border-bottom: 1px solid var(--gray);
+    padding: 0 50px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    a {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 30px;
+        }
+    }
+}

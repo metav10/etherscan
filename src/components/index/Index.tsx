@@ -1,10 +1,14 @@
 import React from 'react';
 
+import Header from '../core/Header/Header';
+import SearchForm from './SearchForm/SearchForm';
+
 const Index = () => {
 
     return (
         <>
-            Index page
+            <Header />
+            <SearchForm/>
         </>
     );
 }

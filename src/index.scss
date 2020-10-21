@@ -1,0 +1,76 @@
+@import url("https://use.typekit.net/rud8diz.css");
+
+:root {
+	--blue: #697eff;
+	--dark-blue: #5b67b4;
+	--dark-blue-light: #5b67b423;
+	--black: #2f2e41;
+	--white: #fff;
+	--gray: #e9e9e9;
+	--gray-light: #fcfcfc;
+
+	--green: #5bb482;
+	--red: #b45b5b;
+
+	--border-radius: 20px;
+	--margin-sides: 10vw;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: bree-serif, serif;
+	color: var(--black);
+}
+
+body {
+	background: var(--white);
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.content {
+	margin-top: 80px;
+}
+
+.table {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	& > * {
+		word-break: break-all;
+		margin-inline-end: 10px;
+
+		&.flex {
+			&-1 {
+                flex: 1;
+                
+				&-5 {
+					flex: 1.5;
+				}
+			}
+
+			&-2 {
+				flex: 2;
+			}
+
+			&-3 {
+				flex: 3;
+			}
+		}
+
+		&:last-child {
+			text-align: end;
+			margin-inline-end: 0;
+		}
+	}
+}

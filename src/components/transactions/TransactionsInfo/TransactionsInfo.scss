@@ -1,0 +1,29 @@
+.transactions-info {
+	top: 80px;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background: var(--black);
+	padding: 40px var(--margin-sides) 20px;
+	z-index: 1;
+
+	h4 {
+		font-size: 24px;
+		font-weight: 600;
+		margin-top: 40px;
+		color: var(--white);
+	}
+
+	& > .table {
+		margin-top: 20px;
+		text-transform: uppercase;
+
+		span {
+			font-size: 14px;
+			font-weight: bold;
+			opacity: 0.75;
+			color: var(--white);
+		}
+	}
+}
